@@ -1,0 +1,290 @@
+body{
+    background-color: rgb(125, 163, 214)
+  }
+  
+  #demo{
+    width: 100px; 
+    height: 100px;
+    position: relative;
+    animation: mymove 3s infinite;
+  }
+  
+  #demo2{
+    width: 150px; 
+    height: 100px;
+    position: relative;
+    animation: mymove2 4s infinite;
+  }
+  
+  #demo3{
+    width: 70px; 
+    height: 300px;
+    position: relative;
+    animation: mymove3 6s infinite;
+  }
+  
+  #demo4{
+    width: 400px; 
+    height: 200px;
+    position: relative;
+    animation: mymove4 7s infinite;
+  }
+  
+  #demo5{
+    width: 200px; 
+    height: 200px;
+    position: relative;
+    animation: mymove5 5s infinite;
+  }
+  
+  #demo6{
+    width: 100px; 
+    height: 100px;
+    position: relative;
+    animation: mymove6 2s infinite;
+  }
+
+  #demo7{
+    width: 300px; 
+    height: 140px;
+    position: relative;
+    animation: mymove7 2s infinite;
+  }
+
+  #demo8{
+    width: 500px; 
+    height: 100px;
+    position: relative;
+    animation: mymove8 5s infinite;
+  }
+
+  #demo9{
+    width: 100px; 
+    height: 700px;
+    position: relative;
+    animation: mymove9 5s infinite;
+  }
+
+  
+  
+  
+  @keyframes mymove {
+    0%   {background-color:rgb(219, 146, 146); left:0px; top:0px;}
+    25%  {background-color:rgb(223, 90, 90); left:200px; top:20px;}
+    50%  {background-color:rgb(9, 9, 119); left:520px; top:300px;}
+    75%  {background-color:rgb(49, 4, 4); left:0px; top:500px;}
+    100% {background-color:rgb(179, 34, 34); left:80px; top:0px;}
+  }
+  
+  @keyframes mymove2 {
+    0%   {background-color:rgb(205, 235, 177); left:500px; top:0px;}
+    25%  {background-color:rgb(59, 165, 64); left:700px; top:0px;}
+    50%  {background-color:rgb(59, 165, 64); left:500px; top:200px;}
+    75%  {background-color:rgb(37, 82, 46); left:0px; top:200px;}
+    100% {background-color:yellow; left:0px; top:0px;}
+  }
+  
+  @keyframes mymove3 {
+    0%   {background-color:rgb(143, 231, 231); left:0px; top:0px;}
+    25%  {background-color:rgb(14, 67, 145); left:600px; top:0px;}
+    50%  {background-color:rgb(45, 160, 226); right:700px; top:200px;}
+    75%  {background-color:rgb(14, 33, 207); left:80px; top:200px;}
+    100% {background-color:black; left:0px; top:0px;}
+  }
+  
+  @keyframes mymove4 {
+    0%   {background-color:rgb(105, 14, 14); left:0px; top:0px;}
+    25%  {background-color:brown; left:900px; top:30px;}
+    50%  {background-color:rgb(230, 132, 132); left:500px; top:70px;}
+    75%  {background-color:rgb(245, 180, 180); left:200px; top:100px;}
+    100% {background-color:rgb(255, 255, 255); left:0px; top:0px;}
+  }
+  
+  @keyframes mymove5 {
+    0%   {background-color:rgb(83, 0, 161); left:0px; top:0px;}
+    25%  {background-color:rgb(213, 71, 231); left:1300px; top:30px;}
+    50%  {background-color:rgb(182, 90, 162); left:700px; top:300px;}
+    75%  {background-color:rgb(211, 139, 187); left:0px; top:200px;}
+    100% {background-color:rgb(107, 77, 102); left:50px; top:0px;}
+  }
+  
+  @keyframes mymove6 {
+    0%   {background-color:rgb(255, 248, 147); left:0px; top:0px;}
+    25%  {background-color:orange; left:200px; top:60px;}
+    50%  {background-color:rgb(204, 149, 31); right:700px; top:300px;}
+    75%  {background-color:rgb(197, 83, 6); right:120px; bottom:600px;}
+    100% {background-color:rgb(255, 115, 0); left:500px; top:80px;}
+  }
+
+  @keyframes mymove7 {
+    0%   {background-color:rgb(18, 187, 102); right:300px; top:500px;}
+    25%  {background-color:rgb(98, 218, 172); right:100px; top:100px;}
+    50%  {background-color:rgb(122, 202, 182); right:500px; top:200px;}
+    75%  {background-color:rgb(156, 196, 179); right:100px; bottom:400px;}
+    100% {background-color:rgb(50, 73, 65); left:300px; top:400px;}
+  }
+
+  @keyframes mymove8 {
+    0%   {background-color:rgb(80, 95, 87); left:300px; top:500px;}
+    25%  {background-color:rgb(141, 146, 144); left:300px; top:200px;}
+    50%  {background-color:rgb(203, 204, 204); right:100px; top:700px;}
+    75%  {background-color:rgb(46, 49, 48); right:500px; bottom:300px;}
+    100% {background-color:rgb(0, 0, 0); left:100px; top:200px;}
+  }
+
+  @keyframes mymove9 {
+    0%   {background-color:rgb(34, 7, 134); left:100px; top:500px;}
+    25%  {background-color:rgb(86, 56, 168); left:200px; top:170px;}
+    50%  {background-color:rgb(70, 83, 139); right:600px; top:100px;}
+    75%  {background-color:rgb(41, 19, 243); right:700px; bottom:200px;}
+    100% {background-color:rgb(0, 60, 255); left:300px; top:400px;}
+  }
+
+  @media screen and (max-width: 600px) {
+    body{
+      background: -webkit-linear-gradient(rgb(130, 136, 184), rgb(82, 55, 235));
+    }
+  }
+
+  @media screen and (min-width: 600px) {
+    body{
+      background: -webkit-linear-gradient(rgb(112, 30, 92), rgb(82, 55, 235));
+    }
+
+    #demo{
+        width: 300px; 
+        height: 300px;
+        position: relative;
+        animation: mymove 3s infinite;
+      }
+      
+      #demo2{
+        width: 100px; 
+        height: 100px;
+        position: relative;
+        animation: mymove2 4s infinite;
+      }
+      
+      #demo3{
+        width: 20px; 
+        height: 20px;
+        position: relative;
+        animation: mymove3 6s infinite;
+      }
+      
+      #demo4{
+        width: 100px; 
+        height: 200px;
+        position: relative;
+        animation: mymove4 7s infinite;
+      }
+      
+      #demo5{
+        width: 50px; 
+        height: 150px;
+        position: relative;
+        animation: mymove5 5s infinite;
+      }
+      
+      #demo6{
+        width: 90px; 
+        height: 250px;
+        position: relative;
+        animation: mymove6 2s infinite;
+      }
+    
+      #demo7{
+        width: 300px; 
+        height: 80px;
+        position: relative;
+        animation: mymove7 2s infinite;
+      }
+    
+      #demo8{
+        width: 400px; 
+        height: 200px;
+        position: relative;
+        animation: mymove8 5s infinite;
+      }
+    
+      #demo9{
+        width: 100px; 
+        height: 200px;
+        position: relative;
+        animation: mymove9 5s infinite;
+      }
+       
+  @keyframes mymove {
+    0%   {background-color:rgb(16, 204, 72); left:0px; top:0px;}
+    25%  {background-color:rgb(16, 119, 30); left:100px; top:100px;}
+    50%  {background-color:rgb(9, 119, 86); left:320px; top:200px;}
+    75%  {background-color:rgb(39, 117, 85); left:0px; top:100px;}
+    100% {background-color:rgb(64, 102, 79); left:100px; top:200px;}
+  }
+  
+  @keyframes mymove2 {
+    0%   {background-color:rgb(0, 4, 214); left:500px; top:0px;}
+    25%  {background-color:rgb(0, 24, 160); left:700px; top:0px;}
+    50%  {background-color:rgb(27, 58, 143); left:500px; top:200px;}
+    75%  {background-color:rgb(65, 68, 206); left:0px; top:200px;}
+    100% {background-color:rgb(58, 70, 133); left:0px; top:0px;}
+  }
+  
+  @keyframes mymove3 {
+    0%   {background-color:rgb(185, 2, 155); left:0px; top:0px;}
+    25%  {background-color:rgb(109, 17, 121); left:600px; top:0px;}
+    50%  {background-color:rgb(158, 76, 151); right:700px; top:200px;}
+    75%  {background-color:rgb(151, 105, 160); left:80px; top:200px;}
+    100% {background-color:rgb(223, 155, 229); left:0px; top:0px;}
+  }
+  
+  @keyframes mymove4 {
+    0%   {background-color:rgb(11, 165, 36); left:0px; top:0px;}
+    25%  {background-color:rgb(64, 131, 94); left:900px; top:30px;}
+    50%  {background-color:rgb(135, 230, 132); left:500px; top:70px;}
+    75%  {background-color:rgb(41, 139, 99); left:200px; top:100px;}
+    100% {background-color:rgb(16, 145, 74); left:0px; top:0px;}
+  }
+  
+  @keyframes mymove5 {
+    0%   {background-color:rgb(83, 0, 161); left:0px; top:0px;}
+    25%  {background-color:rgb(213, 71, 231); left:1300px; top:30px;}
+    50%  {background-color:rgb(182, 90, 162); left:700px; top:300px;}
+    75%  {background-color:rgb(211, 139, 187); left:0px; top:200px;}
+    100% {background-color:rgb(107, 77, 102); left:50px; top:0px;}
+  }
+  
+  @keyframes mymove6 {
+    0%   {background-color:rgb(255, 248, 147); left:0px; top:120px;}
+    25%  {background-color:orange; left:300px; top:60px;}
+    50%  {background-color:rgb(204, 149, 31); right:200px; top:300px;}
+    75%  {background-color:rgb(197, 83, 6); right:320px; bottom:100px;}
+    100% {background-color:rgb(255, 115, 0); left:100px; top:180px;}
+  }
+
+  @keyframes mymove7 {
+    0%   {background-color:rgb(252, 78, 78); right:300px; top:500px;}
+    25%  {background-color:rgb(255, 0, 0); right:100px; top:100px;}
+    50%  {background-color:rgb(100, 13, 13); right:500px; top:200px;}
+    75%  {background-color:rgb(61, 3, 11); right:100px; bottom:400px;}
+    100% {background-color:rgb(71, 32, 32); left:300px; top:400px;}
+  }
+
+  @keyframes mymove8 {
+    0%   {background-color:rgb(184, 125, 0); left:300px; top:500px;}
+    25%  {background-color:rgb(139, 69, 11); left:300px; top:200px;}
+    50%  {background-color:rgb(241, 84, 11); right:100px; top:700px;}
+    75%  {background-color:rgb(155, 84, 79); right:500px; bottom:300px;}
+    100% {background-color:rgb(153, 118, 118); left:100px; top:200px;}
+  }
+
+  @keyframes mymove9 {
+    0%   {background-color:rgb(34, 7, 134); left:100px; top:500px;}
+    25%  {background-color:rgb(86, 56, 168); left:200px; top:170px;}
+    50%  {background-color:rgb(70, 83, 139); right:100px; top:200px;}
+    75%  {background-color:rgb(41, 19, 243); right:200px; bottom:300px;}
+    100% {background-color:rgb(0, 60, 255); left:400px; top:400px;}
+  }
+  }
+  
+  
